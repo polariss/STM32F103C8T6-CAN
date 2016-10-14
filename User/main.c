@@ -20,6 +20,7 @@ int main(void)
 	CAN_Config();
 #endif /*LOOPBACK_TEST*/
 	
+	
 	printf("CAN demo start!\n");
 	while(1)
 	{
