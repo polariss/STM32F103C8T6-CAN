@@ -2,7 +2,7 @@
 #include "Head.h"
 
 void LED_Display(uint8_t Ledstatus);
-
+//×¢ÊÍ²âÊÔ
 int main(void)
 {
 	uint8_t temp = 0x30;
