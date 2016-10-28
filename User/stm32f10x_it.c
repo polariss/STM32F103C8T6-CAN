@@ -10,21 +10,6 @@
 /* Private typedef -----------------------------------------------------------*/
 /* Private macro -------------------------------------------------------------*/
 
-/* Private function prototypes -----------------------------------------------*/
-/* Private functions ---------------------------------------------------------*/
-
-/*******************************************************************************
-* Function Name  : NMIException
-* Description    : This function handles NMI exception.
-* Input          : None
-* Output         : None
-* Return         : None
-*******************************************************************************/
-void NMIException(void)
-{
-}
-
-/*******************************************************************************
 * Function Name  : HardFaultException
 * Description    : This function handles Hard Fault exception.
 * Input          : None
