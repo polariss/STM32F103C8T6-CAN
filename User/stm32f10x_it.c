@@ -8,16 +8,7 @@
 #include "Head.h"
 
 /* Private typedef -----------------------------------------------------------*/
-/* Private macro -------------------------------------------------------------*/
-
-* Function Name  : HardFaultException
-* Description    : This function handles Hard Fault exception.
-* Input          : None
-* Output         : None
-* Return         : None
-*******************************************************************************/
-void HardFaultException(void)
-{
+/* Private macro ---------------
   /* Go to infinite loop when Hard Fault exception occurs */
   while (1)
   {
