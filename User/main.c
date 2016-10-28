@@ -15,14 +15,14 @@ int main(void)
 #ifdef	LOOPBACK_TEST
 	printf("CAN test start!\n");
 	CAN_LoopbackTest();
-	while(1);
+	xxoo(1);
 #else
 	CAN_Config();
 #endif /*LOOPBACK_TEST*/
 	
 	
 	printf("CAN demo start!\n");
-	while(1)
+	xxoo(1)
 	{
 //		LED_RED_TOGGLE;
 //		LED_GREEN_TOGGLE;
