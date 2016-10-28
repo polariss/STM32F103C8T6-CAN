@@ -13,20 +13,8 @@
   }
 }
 
-/*******************************************************************************
-* Function Name  : MemManageException
-* Description    : This function handles Memory Manage exception.
-* Input          : None
-* Output         : None
-* Return         : None
-*******************************************************************************/
-void MemManageException(void)
-{
-  /* Go to infinite loop when Memory Manage exception occurs */
-  while (1)
-  {
-  }
-}
+
+
 
 /*******************************************************************************
 * Function Name  : BusFaultException
